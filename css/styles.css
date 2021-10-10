@@ -1,3 +1,144 @@
-.header {
+:root {
+  --primery-text-color: rgba(33, 33, 33, 1);
+  --title-text-color: rgba(117, 117, 117, 1);
+}
+
+body {
+  font-family: 'Roboto';
+}
+.list {
+  list-style: none;
+}
+.section-title {
+  color: var(--primery-text-color);
+}
+
+/* Шапка страницы */
+header {
   background-color: rgba(255, 255, 255, 1);
+}
+
+/* WebStudio */
+.WebStudio-header {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+}
+.WebStudio-header span:nth-child(1) {
+  color: rgba(33, 150, 243, 1);
+}
+.WebStudio-header span:nth-child(2) {
+  color: rgba(0, 0, 0, 1);
+}
+/* site-nav */
+.site-nav a {
+  color: var(--primery-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: rgba(33, 150, 243, 1);
+}
+/* auth-nav */
+.auth-nav a {
+  color: var(--title-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: rgba(33, 150, 243, 1);
+}
+/* section hero */
+.hero {
+  background: rgba(47, 48, 58, 1);
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.button {
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+}
+/* features */
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title-text {
+  color: rgba(117, 117, 117, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.work,
+.command {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.list p {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Нижний колонтитул */
+.section-footer {
+  background: rgba(47, 48, 58, 1);
+}
+
+.WebStudio-footer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.WebStudio-footer span:nth-child(1) {
+  color: rgba(33, 150, 243, 1);
+}
+.WebStudio-footer span:nth-child(2) {
+  color: rgba(255, 255, 255, 1);
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer a:hover,
+.footer a:focus {
+  color: rgba(33, 150, 243, 1);
 }
