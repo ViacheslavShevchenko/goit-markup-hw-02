@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: var(--primery-text-color);
 }
 .list {
@@ -19,7 +19,7 @@ header {
 
 /* WebStudio */
 .WebStudio-header {
-  font-family: 'Oleo Script';
+  font-family: 'Oleo Script', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 26px;
@@ -64,7 +64,7 @@ header {
 .button {
   background-color: var(--accent-color);
   color: rgba(255, 255, 255, 1);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 
   font-weight: 700;
   font-size: 16px;
@@ -74,12 +74,17 @@ header {
 .list .buttons-portfolio {
   background-color: rgba(245, 244, 250, 1);
   color: rgba(33, 33, 33, 1);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   display: flex;
+}
+.list .buttons-portfolio:hover,
+.list .buttons-portfolio:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: var(--accent-color);
 }
 
 /* features */
